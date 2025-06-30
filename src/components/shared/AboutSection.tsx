@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";      // ← same API, better DX
+import { motion, AnimatePresence } from "motion/react";      // ← same API, better DX
 import { ABOUT_SLIDES } from "@/utils/constants";
 
 const SLIDE_INTERVAL = 5000;
